@@ -98,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias han64='msfconsole -r ~/scripts/x64handler.rc'
-alias rememp='grep -vE "^$"grep -vE "^$"'
+alias rememp='grep -vE "^$"'
 
 function cddir() {
 	mkdir $1; cd $1
